@@ -22,9 +22,9 @@ public class Exercise1_5{
    //Store average mark in mark_avg.
 	int temp=0,j;
 	
- 	for(i=0; i < s; i++)
+ 	for(i=0; i < arr.length; i++)
 	{  
-                for(j=1; j < (s-i); j++)
+                for(j=1; j <arr.length; j++)
 		{  
 			if(arr[j-1] > arr[j])
 			{  
